@@ -13,7 +13,7 @@ namespace TestAppPCL
 		{
 			InitializeComponent();
 
-			MainPage = new TestAppPCL.MainPage();
+			MainPage = new TestAppPCL.TabbedPage1();
 		}
 
 		protected override void OnStart()

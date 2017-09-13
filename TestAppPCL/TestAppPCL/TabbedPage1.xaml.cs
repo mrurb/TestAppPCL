@@ -15,6 +15,7 @@ namespace TestAppPCL
 		public TabbedPage1()
 		{
 			InitializeComponent();
+			//Children.Add(new Page1());
 		}
 	}
 }
