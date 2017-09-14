@@ -4,7 +4,8 @@
              x:Class="TestAppPCL.Day"
              Title="Agenda">
 
-    <ListView>
-        <cell
-    </ListView>
+    <ListView x:Name="listView" 
+              
+              ItemsSource="{Binding .}"
+              ItemSelected="OnItemSelected"/>
 </ContentPage>

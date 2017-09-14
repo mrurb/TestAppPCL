@@ -35,10 +35,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="agenda\agenda.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Day.xaml.cs">
+    <Compile Include="agenda\Day.xaml.cs">
       <DependentUpon>Day.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
@@ -89,7 +90,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Day.xaml">
+    <EmbeddedResource Include="agenda\Day.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
